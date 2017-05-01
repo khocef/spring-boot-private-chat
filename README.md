@@ -43,7 +43,7 @@
 - Implement a UUID for notifications topics subscription (currently using user id, which is unsecure)
 - Wire up CSRF tokens with Spring Security
 - ChatService.getExistingChatMessages(...) currently reverses the `List<ChatMessageDTO` collection because the query needs some attention.
-- Handle frontend exception when requested chat user doesn't exist on the frontend
+- Handle frontend exception when requested chat user doesn't exist on the backend
 - Clean up hacky notifications SCSS
 - Improve the way global error handler intercepts HTTPs responses
 - Switch all e.printStackTrace to use the logger
